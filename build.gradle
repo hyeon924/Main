@@ -39,6 +39,8 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	// DB (Docker)
 	runtimeOnly 'org.postgresql:postgresql'
+	// DB (Mariadb)
+	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
 	// api
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
 	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5'
